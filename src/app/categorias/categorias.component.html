@@ -1,0 +1,8 @@
+<ion-list>
+  <ion-item *ngFor="let categoria of categorias" (click)="goToCategory(categoria)">
+    <ion-thumbnail slot="start">
+      <img [src]="categoria.image" alt="Category Image">
+    </ion-thumbnail>
+    <ion-label>{{ categoria.name }}</ion-label>
+  </ion-item>
+</ion-list>

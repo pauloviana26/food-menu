@@ -1,0 +1,82 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.app-categoria-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.app-categoria-item img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.app-categoria-item span {
+  font-size: 16px;
+}
+.chef-tip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.chef-tip-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.chef-tip-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chef-tip-content {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.chef-tip h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.chef-tip p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.chef-tip ion-button {
+  --background: #4c8bf5;
+  --color: #ffffff;
+}
